@@ -5,5 +5,5 @@ import checkbox.Checkbox;
 
 public interface GUIFactory {
     Button createButton();
-    Checkbox createCheckBox();
+    Checkbox createCheckbox();
 }

@@ -1,9 +1,8 @@
 package button;
 
-import platform.Platform;
-
-public class WinButton extends Button {
-    public WinButton() {
-        platform = Platform.WINDOWS;
+public class WinButton implements Button {
+    @Override
+    public void draw() {
+        System.out.println("Отрисовка Windows кнопки");
     }
 }

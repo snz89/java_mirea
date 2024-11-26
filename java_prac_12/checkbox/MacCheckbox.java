@@ -1,9 +1,8 @@
 package checkbox;
 
-import platform.Platform;
-
-public class MacCheckbox extends Checkbox {
-    public MacCheckbox() {
-        platform = Platform.MAC_OS;
+public class MacCheckbox implements Checkbox {
+    @Override
+    public void draw() {
+        System.out.println("Отрисовка MacOS чекбокса");
     }
 }

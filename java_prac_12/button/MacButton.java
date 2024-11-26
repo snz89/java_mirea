@@ -1,9 +1,8 @@
 package button;
 
-import platform.Platform;
-
-public class MacButton extends Button {
-    public MacButton() {
-        platform = Platform.MAC_OS;
+public class MacButton implements Button {
+    @Override
+    public void draw() {
+        System.out.println("Отрисовка MacOS кнопки");
     }
 }

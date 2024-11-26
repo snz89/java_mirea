@@ -12,7 +12,7 @@ public class MacFactory implements GUIFactory {
     }
 
     @Override
-    public Checkbox createCheckBox() {
+    public Checkbox createCheckbox() {
         return new MacCheckbox();
     }
 }

@@ -12,7 +12,7 @@ public class WinFactory  implements GUIFactory {
     }
 
     @Override
-    public Checkbox createCheckBox() {
+    public Checkbox createCheckbox() {
         return new WinCheckbox();
     }
 }
